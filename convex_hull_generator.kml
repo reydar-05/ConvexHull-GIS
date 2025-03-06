@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="z2">
+    <LineStyle>
+      <width>2</width>
+    </LineStyle>
+</Style>
+<Style id="polyStyle">
+    <PolyStyle>  
+    <color>#a00000ff</color>
+    <outline>0</outline>
+    </PolyStyle>
+  <LineStyle>
+  	<width>20</width>
+  </LineStyle>
+</Style>
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>72.8347,18.9220 75.8267,26.9239</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>72.8347,18.9220 78.0421,27.1751</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>72.8347,18.9220 77.2295,28.6129</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark><name>Gateway of India</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>72.8347,18.9220</coordinates></Point>
+</Placemark>
+<Placemark><name>India Gate</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>77.2295,28.6129</coordinates></Point>
+</Placemark>
+<Placemark><name>Taj Mahal</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>78.0421,27.1751</coordinates></Point>
+</Placemark>
+<Placemark><name>Red Fort</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>77.2410,28.6562</coordinates></Point>
+</Placemark>
+<Placemark><name>Victoria Memorial</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>88.3426,22.5448</coordinates></Point>
+</Placemark>
+<Placemark><name>Golden Temple</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>74.8765,31.6200</coordinates></Point>
+</Placemark>
+<Placemark><name>Hawa Mahal</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>75.8267,26.9239</coordinates></Point>
+</Placemark>
+<Placemark><name>Charminar</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>78.4747,17.3616</coordinates></Point>
+</Placemark>
+<Placemark><name>Meenakshi Temple</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>78.1198,9.9195</coordinates></Point>
+</Placemark>
+
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>
+                72.8347,18.9220 75.8267,26.9239 77.2295,28.6129 78.0421,27.1751 88.3426,22.5448 78.4747,17.3616 78.1198,9.9195 72.8347,18.9220
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<styleUrl>#polyStyle</styleUrl>
+<Polygon>
+	<outerBoundaryIs>
+		<LinearRing>
+			<coordinates>
+				72.8347,18.9220,0
+				75.8267,26.9239,0
+				77.2295,28.6129,0
+				78.0421,27.1751,0
+				88.3426,22.5448,0
+				78.4747,17.3616,0
+				78.1198,9.9195,0
+				72.8347,18.9220,0
+			</coordinates>
+		</LinearRing>
+	</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Document>
+</kml>
